@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 import { CustomerServiceOutlined, MessageOutlined } from "@ant-design/icons";
 import { FloatButton, Layout } from "antd";
 const LayoutWrapper = () => {
-    const [collapsed, setCollapsed] = useState(false);
+    const [collapsed, setCollapsed] = useState(true);
     const { Content } = Layout;
     return (
         <Router>

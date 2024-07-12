@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./index.css"
 import {
     LeftOutlined,
     RightOutlined,
@@ -49,17 +50,12 @@ const Navbar = ({collapsed,setCollapsed}) => {
                 <Flex
                     justify="center"
                     align="center"
-                    style={{ height: "3rem" }}
+                    className="h-12"
                 >
-                    {/* <Title level={2}>
-                            {collapsed ? "vS" : "villaStop"}
-                        </Title> */}
                     <img
                         src={collapsed ? vs : villa}
+                        className="min-w-80"
                         alt=""
-                        style={{
-                            width: "20rem",
-                        }}
                     />
                 </Flex>
 

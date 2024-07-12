@@ -11,22 +11,17 @@
     width: 100vw;
     height: 100vh;
 }
-.layer2{
+.layer2 {
     background-color: rgba(0, 0, 0, 0.2);
     width: 100vw;
     height: 100vh;
-
 }
-.overFlex{
-    /* background-color: cadetblue; */
+.overFlex {
     width: 100%;
     height: 100%;
 }
-.infoDiv{
-    background-color: burlywood;
-    margin-left: 250px;
-}
-.location{
+
+.location {
     background-color: white;
     width: 250px;
     height: 50px;
@@ -34,5 +29,4 @@
     justify-content: center;
     align-items: center;
     font-size: large;
-
 }
